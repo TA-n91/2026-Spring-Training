@@ -121,7 +121,6 @@ from Crypto.Util.number import *
 p = getPrime(512)
 q = getPrime(512)
 
-e = 65537
 n = p * q
 
 m = bytes_to_long(flag)
